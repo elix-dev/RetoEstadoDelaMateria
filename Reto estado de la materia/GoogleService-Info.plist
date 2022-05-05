@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>414264082073-630ok17tullche1pt455f3vbbitdq8el.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.414264082073-630ok17tullche1pt455f3vbbitdq8el</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDHyuRVyotwPjj33IHqoE1a1RZMiP9T8QE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>414264082073</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.eliasjoserodriguez.Reto-estado-de-la-materia</string>
+	<key>PROJECT_ID</key>
+	<string>retoestadodelamateria</string>
+	<key>STORAGE_BUCKET</key>
+	<string>retoestadodelamateria.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:414264082073:ios:19892b540d5aa2772bc208</string>
+</dict>
+</plist>

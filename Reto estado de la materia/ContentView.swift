@@ -83,9 +83,9 @@ struct Items: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct InicioView: PreviewProvider {
     
     static var previews: some View {
-        ContentView()
+        InicioView()
     }
 }
