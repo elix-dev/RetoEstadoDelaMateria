@@ -7,8 +7,8 @@
 
 import SwiftUI
 import Firebase
-
 //inicialitzacion de firebase
+@main
 class AppDelegate: NSObject, UIApplicationDelegate {
     
     func application(_ application: UIApplication,
@@ -20,7 +20,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     
 }
 
-@main
+
 struct Reto_estado_de_la_materiaApp: App {
     //inicialitzacion de firebase
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate

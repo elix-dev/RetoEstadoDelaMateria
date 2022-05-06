@@ -23,7 +23,8 @@ struct InicioView: View {
         VStack {
             Image("LogoInicio")
                 .resizable()
-                .frame(width: 200, height: 200)
+              .frame(width: 180, height: 200)
+                .clipShape(Circle())
             
             VStack {
                 Button {
@@ -52,16 +53,16 @@ struct InicioView: View {
             
             switch sheet {
             case .registro:
-                Text("Registro")
+                RegistroEmailView()
             case .login:
-                Text("login")
+                LoginEmailView()
             }
             
         }
     }
 }
 
-struct Inicio_Previews: PreviewProvider {
+struct InicioView_Previews: PreviewProvider {
     static var previews: some View {
         InicioView()
             .preferredColorScheme(.light)

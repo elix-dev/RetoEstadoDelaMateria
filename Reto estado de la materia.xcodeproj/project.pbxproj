@@ -35,7 +35,10 @@
 		5B19248028245CE10075A556 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5B19247F28245CE10075A556 /* FirebaseRemoteConfigSwift */; };
 		5B19248228245CE10075A556 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5B19248128245CE10075A556 /* FirebaseStorage */; };
 		5B19248428245CE10075A556 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 5B19248328245CE10075A556 /* FirebaseStorageCombine-Community */; };
-		5B192486282461650075A556 /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B192485282461640075A556 /* Inicio.swift */; };
+		5B192486282461650075A556 /* InicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B192485282461640075A556 /* InicioView.swift */; };
+		5BA5033A28257FD30035A101 /* LoginEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5033928257FD30035A101 /* LoginEmailView.swift */; };
+		5BA5033C282586D40035A101 /* RegistroEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5033B282586D40035A101 /* RegistroEmailView.swift */; };
+		5BA5033E2825882D0035A101 /* DismissView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5033D2825882D0035A101 /* DismissView.swift */; };
 		FD8391E5281A123C00842A5D /* Reto_estado_de_la_materiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8391E4281A123C00842A5D /* Reto_estado_de_la_materiaApp.swift */; };
 		FD8391E7281A123C00842A5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8391E6281A123C00842A5D /* ContentView.swift */; };
 		FD8391E9281A123E00842A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8391E8281A123E00842A5D /* Assets.xcassets */; };
@@ -45,7 +48,10 @@
 
 /* Begin PBXFileReference section */
 		5B19244C282441510075A556 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		5B192485282461640075A556 /* Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio.swift; sourceTree = "<group>"; };
+		5B192485282461640075A556 /* InicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioView.swift; sourceTree = "<group>"; };
+		5BA5033928257FD30035A101 /* LoginEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEmailView.swift; sourceTree = "<group>"; };
+		5BA5033B282586D40035A101 /* RegistroEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroEmailView.swift; sourceTree = "<group>"; };
+		5BA5033D2825882D0035A101 /* DismissView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissView.swift; sourceTree = "<group>"; };
 		FD8391E1281A123C00842A5D /* Reto estado de la materia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reto estado de la materia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8391E4281A123C00842A5D /* Reto_estado_de_la_materiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reto_estado_de_la_materiaApp.swift; sourceTree = "<group>"; };
 		FD8391E6281A123C00842A5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,7 +118,10 @@
 			isa = PBXGroup;
 			children = (
 				FD8391E4281A123C00842A5D /* Reto_estado_de_la_materiaApp.swift */,
-				5B192485282461640075A556 /* Inicio.swift */,
+				5B192485282461640075A556 /* InicioView.swift */,
+				5BA5033928257FD30035A101 /* LoginEmailView.swift */,
+				5BA5033B282586D40035A101 /* RegistroEmailView.swift */,
+				5BA5033D2825882D0035A101 /* DismissView.swift */,
 				FD8391E6281A123C00842A5D /* ContentView.swift */,
 				5B19244C282441510075A556 /* GoogleService-Info.plist */,
 				FD8391E8281A123E00842A5D /* Assets.xcassets */,
@@ -235,8 +244,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD8391F3281A130D00842A5D /* Logica.swift in Sources */,
+				5BA5033A28257FD30035A101 /* LoginEmailView.swift in Sources */,
 				FD8391E7281A123C00842A5D /* ContentView.swift in Sources */,
-				5B192486282461650075A556 /* Inicio.swift in Sources */,
+				5B192486282461650075A556 /* InicioView.swift in Sources */,
+				5BA5033C282586D40035A101 /* RegistroEmailView.swift in Sources */,
+				5BA5033E2825882D0035A101 /* DismissView.swift in Sources */,
 				FD8391E5281A123C00842A5D /* Reto_estado_de_la_materiaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
