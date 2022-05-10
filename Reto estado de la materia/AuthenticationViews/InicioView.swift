@@ -16,6 +16,7 @@ var id: String {
 }
 }
 struct InicioView: View {
+    @ObservedObject var authenticationViewModel: AuthenticationViewModel
     @State private var autenticacionView: AutenticacionView?
     
     var body: some View {
@@ -53,7 +54,7 @@ struct InicioView: View {
             
             switch sheet {
             case .registro:
-                RegistroEmailView()
+                RegistroEmailView(authenticationViewModel: authenticationViewModel)
             case .login:
                 LoginEmailView()
             }
@@ -64,7 +65,7 @@ struct InicioView: View {
 
 struct InicioView_Previews: PreviewProvider {
     static var previews: some View {
-        InicioView()
-            .preferredColorScheme(.light)
+        InicioView(authenticationViewModel: AuthenticationViewModel())
+            
     }
 }

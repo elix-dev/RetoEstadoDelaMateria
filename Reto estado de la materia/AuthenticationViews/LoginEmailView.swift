@@ -28,7 +28,7 @@ struct LoginEmailView: View {
             .tint(.primary)
             Group{
                 Text("Loguéate de nuevo para poder acceder")
-                tint(.secondary)
+                    .tint(.secondary)
                     .multilineTextAlignment(.center)
                     .padding(.top,2)
                     .padding(.bottom,2)
@@ -51,5 +51,6 @@ struct LoginEmailView: View {
 struct LoginEmailView_Previews: PreviewProvider {
     static var previews: some View {
         LoginEmailView()
+            .preferredColorScheme(.dark)
     }
 }

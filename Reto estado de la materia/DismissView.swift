@@ -16,7 +16,9 @@ struct DismissView: View {
             Button("Cerrar"){
                 dismiss()
             }
-            .tint(.black)
+            .foregroundColor(.white)
+            .background(.blue)
+            //.tint(.black)
             .padding(.trailing, 12)
         }
         .buttonStyle(.bordered)
@@ -26,5 +28,6 @@ struct DismissView: View {
 struct DismissView_Previews: PreviewProvider {
     static var previews: some View {
         DismissView()
+            
     }
 }
